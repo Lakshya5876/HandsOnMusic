@@ -15,7 +15,6 @@ A gesture-controlled music player that uses real-time hand tracking with OpenCV 
 - Play/Pause control with gestures
 - Skip to next track gesture
 - Rewind to previous track gesture
-- Volume control with hand positioning
 - Smooth gesture detection
 - Support for all major media players
 - Adjustable sensitivity settings
@@ -49,10 +48,8 @@ Request flow:
 
 ## Gesture Controls
 ```
-Thumbs Up: Play/Pause
-Victory Sign (two fingers): Next Track
-Fist: Previous Track
-Open Palm: Increase Volume
-Closed Fist: Decrease Volume
-Pointing Finger: Seek Forward
+Close fist: Play/Pause
+thumb touches index finger: Next Track
+little finger touches thumb: Previous Track
+
 ```
